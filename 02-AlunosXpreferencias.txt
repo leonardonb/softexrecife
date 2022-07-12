@@ -1,0 +1,43 @@
+QUESTÃO:
+
+Em uma sala de aula, há vinte e cinco alunos.
+Entre eles, existem os grupos dos que gostam de Português (P) e os que gostam de Matemática (M).
+Eles são divididos conforme a ilustração 1 em anexo.
+
+Depois de um tempo, chegaram mais onze alunos nessa turma e o professor organizou-a conforme a ilustração 2 em anexo.
+
+No entanto, o professor se ausentou da sala por cinco minutos e, ao voltar, percebeu que um aluno que gosta de uma das disciplinas havia trocado de lugar com alguém que prefere a outra, e a turma ficou organizada conforme a ilustração 3 em anexo.
+
+Sabendo que o professor tem dificuldade de memorizar, informe como ele descobriu a cadeira em que houve a troca de alunos e qual a disciplina de cada um. 
+
+LÓGICA PARA CHEGAR A RESPOSTA:
+
+Percebi que na ilustração 01, através da decomposição da sala, que o professor costuma ter como padrão a alternância das colunas (filas) entre os alunos que gostam mais de português e os que gostam mais de matemática, ficando assim da esquerda para direita:
+
+1ª fila: maioria Matemática
+2ª fila: maioria Português
+3ª fila: maioria Matemática
+4ª fila: maioria Português
+5ª fila: maioria Matemática
+
+Quando entraram mais 11 alunos, ele manteve a lógica, mesmo aumentando mais uma coluna e mais uma linha, conforme a ilustração 02. Ficando da seguinte forma:
+
+1ª fila: maioria Matemática
+2ª fila: maioria Português
+3ª fila: maioria Matemática
+4ª fila: maioria Português
+5ª fila: maioria Matemática
+6ª fila: maioria Português
+
+Já o que a ilustração 03 demonstra é que não houve uma mudança de cadeiras, mas apenas uma alteração na 5ª coluna/5ª linha (da esquerda pra direita e de cima pra baixo) de alguém que gosta mais de matemática para uma pessoa que gosta mais de português.
+
+Sendo assim, abstraindo a questão, abre-se um leque de possibilidades:
+
+a) A pessoa que se identificou gostar mais de matemática, mudou de ideia, passando a se identificar como gostando mais de português;
+
+b) A pessoa trocou de lugar com alguém que estava fora da sala.
+
+RESPOSTA:
+
+O professor mesmo com dificuldade de memorizar os lugares, pode ter estranhado a quinta coluna com o mesmo número de alunos que gostam de matemática e que gostam de português, já que ele demostra ter por padrão alternar as quantidades de alunos por suas preferências em colunas.
+
