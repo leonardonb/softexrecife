@@ -19,51 +19,35 @@ RESPOSTA:
 
 algoritimo "exercício 04"
 
-var
+programa
+{
+	
+	funcao inicio()
+{
+	cadeia nome, endereco, cidade, nomepai, nomemae
+	inteiro rg, idade
+	real peso, rendabruta, cpf
 
-nome: caracter
-endereco: caracter
-cidade: caracter
-cpf:inteiro
-rg: inteiro
-idade: inteiro
-nomepai: caracter
-nomemae: caracter
-peso: real
-rendabruta: real
-
-inicio
-
-escreva ("Digite seu nome")
+escreva ("Digite seu nome: ")
 leia (nome)
-escreva("Digite seu endereço")
+escreva("Digite seu endereço: ")
 leia (endereco)
-escreva ("Digite sua cidade")
+escreva ("Digite sua cidade: ")
 leia (cidade)
-escreva ("Digite seu CPF")
+escreva ("Digite seu CPF: ")
 leia (cpf)
-escreva ("Digite seu RG")
+escreva ("Digite seu RG: ")
 leia (rg)
-escreva ("Digite sua idade")
+escreva ("Digite sua idade: ")
 leia (idade)
-escreva ("Digite o nome do seu pai")
+escreva ("Digite o nome do seu pai: ")
 leia (nomepai)
-escreva ("Digite o nome de sua mãe")
+escreva ("Digite o nome de sua mãe: ")
 leia (nomemae)
-escreva ("Digite seu peso")
+escreva ("Digite seu peso: ")
 leia (peso)
-escreva ("Digite sua renda bruta")
+escreva ("Digite sua renda bruta: ")
 leia (rendabruta)
-
-escreva ("Nome:", nome)
-escreva ("Endereço:", endereco)
-escreva ("Cidade:", cidade)
-escreva ("CPF:", cpf)
-escreva ("RG:", rg)
-escreva ("Idade:", idade)
-escreva ("Nome do Pai:", nomepai)
-escreva ("Nome da Mãe:", nomemae)
-escreva ("Peso:", peso)
-escreva ("Renda Bruta:", rendabruta)
-
-fimalgoritmo
+escreva ("Seu nome é ", nome, ", " " e seu endereço é: ", endereco, ", " cidade, " seu CPF é o ", cpf, " e seu RG: ", rg, " o nome de seu pai é ", nomepai, " e o nome de sua mãe ", nomemae, " atualmente seu peso é de ", peso, " kg ", "e sua renda bruta atual é de: ", rendabruta)
+	}
+}
