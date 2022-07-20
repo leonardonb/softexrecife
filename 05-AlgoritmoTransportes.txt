@@ -1,0 +1,158 @@
+programa
+{
+	
+	funcao inicio(){
+	caracter resposta
+
+	escreva ("Terrestre? ")
+	leia (resposta)
+		se (resposta == 's' ou resposta == 'S'){
+			escreva ("Uma pessoa?")
+			leia (resposta)
+			se (resposta == 's' ou resposta == 'S'){
+				escreva ("Pesado? ")
+				leia (resposta)
+				se (resposta == 's' ou resposta == 'S'){
+					escreva ("TRATOR!")
+				}
+				senao {
+					escreva ("Tem pedal? ")
+					leia (resposta)
+					se (resposta == 's' ou resposta == 'S'){
+						escreva ("BICICLETA!")
+					}
+				}
+				
+			}
+			senao {
+				escreva ("Capacete? ")
+				leia (resposta)
+				se (resposta == 's' ou resposta == 'S'){
+					escreva ("MOTO!")
+				}
+				senao {
+					escreva ("Passageiro? ")
+					leia (resposta)
+					se (resposta == 's' ou resposta == 'S'){
+						escreva ("Trilho? ")
+						leia (resposta)
+						se (resposta == 's' ou resposta == 'S'){
+							escreva ("TREM!")
+						}
+						senao {
+							escreva ("Pista? ")
+							leia (resposta)
+							se (resposta == 's' ou resposta == 'S'){
+								escreva ("É alto? ")
+								leia (resposta)
+								se (resposta == 's' ou resposta == 'S'){
+									escreva ("Carroceria? ")
+									leia (resposta)
+									se (resposta == 's' ou resposta == 'S'){
+										escreva ("CAMINHÃO!")
+									}
+									senao {
+										escreva ("Pode ter cobrador? ")
+										leia (resposta)
+										se (resposta == 's' ou resposta == 'S'){
+											escreva ("Ônibus!")
+										}
+									}
+								}
+								senao {
+									escreva ("É veículo leve?")
+									leia (resposta)
+									se (resposta == 's' ou resposta == 'S'){
+										escreva ("CARRO!")
+									}
+								}
+							}
+						}
+					}
+					
+				}
+			}
+	}
+	senao {
+		escreva ("Aéreo? ")
+		leia (resposta)
+			se (resposta == 's' ou resposta == 'S'){
+				escreva ("Pular? ")
+				leia (resposta)
+				se (resposta == 's' ou resposta == 'S'){
+					escreva ("Asa Delta!")
+				}
+				senao {
+					escreva ("Viaja dentro?")
+					leia (resposta)
+					se (resposta == 's' ou resposta == 'S'){
+						escreva ("É devagar? ")
+						leia (resposta)
+						se (resposta == 's' ou resposta == 'S'){
+							escreva ("BALÃO!")
+						}
+						senao {
+							escreva ("Tem piloto? ")
+							leia (resposta)
+							se (resposta == 's' ou resposta == 'S'){
+								escreva ("Possui asas fixas? ")
+								leia (resposta)
+								se (resposta == 's' ou resposta == 'S'){
+									escreva ("AVIÃO!")
+							}
+						}
+						senao {
+							escreva ("Faz voo vertical? ")
+							leia (resposta)
+							se (resposta == 's' ou resposta == 'S'){
+								escreva ("HELICÓPTERO!")
+							}
+						}
+					}
+				}
+			}
+		}
+		senao {
+			escreva ("Aquático? ")
+			leia (resposta)
+				se (resposta == 's' ou resposta == 'S'){
+					escreva ("Coberto de água? ")
+					leia (resposta)
+					se (resposta == 's' ou resposta == 'S'){
+						escreva ("SUBMARINO!")
+					}
+					senao {
+						escreva ("Navega na água? ")
+						leia (resposta)
+						se (resposta == 's' ou resposta == 'S'){
+							escreva ("Possui vela? ")
+							leia (resposta)
+							se (resposta == 's' ou resposta == 'S'){
+								escreva ("BARCO!")
+							}
+							senao {
+								escreva ("Tem motor? ")
+								leia (resposta)
+								se (resposta == 's' ou resposta == 'S'){
+									escreva ("É alto?")
+									leia (resposta)
+									se (resposta == 's' ou resposta == 'S'){
+										escreva ("NAVIO!")
+									}
+									senao {
+										escreva ("Pode ser descoberto? ")
+										leia (resposta)
+										se (resposta == 's' ou resposta == 'S'){
+										escreva ("LANCHA!")
+										}
+										
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
