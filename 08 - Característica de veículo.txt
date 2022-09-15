@@ -1,0 +1,42 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+
+int main () {
+
+setlocale (LC_ALL,"");
+int qntrodas;
+float peso;
+int quantpessoas;
+
+printf (“Informe a quantidade de rodas do veículo: \n”);
+
+scanf (“%d”, &qntrodas);
+
+printf (“Informe o peso do veículo em kg: \n”);
+scanf (“%.2f \n”, &peso);
+printf (“Informe a quantidade de pessoas no interior do veículo: \n”);
+scanf (“%d \n”, &qntpessoas);
+
+
+if (qntrodas >= 2 && qntrodas < 4){
+printf (“Veículo Categoria A”);
+}
+
+If (qntrodas = 4 && qntpessoas <= 8 && peso<= 3500) {
+	printf (“Veículo Categoria B”);
+}
+
+If (qntodas >=4 && qntpessoas > 5){
+	printf (“Veículo Categoria D”);
+
+ifelse (peso > 6000){
+		printf (“Veículo Categoria E”);
+		}
+else {
+	printf (“Veículo Categoria C”);
+	}
+}
+
+return 0;
+}
